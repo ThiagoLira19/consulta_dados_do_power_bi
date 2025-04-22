@@ -1,7 +1,3 @@
-import os
-dll_path = os.path.dirname(os.path.abspath(__file__))
-os.environ["PATH"] += f";{dll_path}"
-
 from pyadomd import Pyadomd
 
 # Substitua pelos seus dados:
