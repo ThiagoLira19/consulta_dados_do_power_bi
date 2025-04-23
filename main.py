@@ -8,7 +8,7 @@ conn_str = f"Data Source={workspace_url};Initial Catalog={dataset_name}"
 
 query_dax = """
 EVALUATE
-TOPN(5, 'Previsto x Realizado')
+TOPN(20, 'Previsto x Realizado')
 """
 
 with Pyadomd(conn_str) as conn:
